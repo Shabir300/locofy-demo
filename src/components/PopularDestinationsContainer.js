@@ -34,7 +34,7 @@ const PopularDestinationsContainer = () => {
           propBackgroundImage={`url("/frame-697@3x.png")`}
           propWidth="4.67rem"
           propWidth1="4.63rem"
-          propLeft="2.21rem"
+          propLeft="unset"
         />
         <TripCard
           destinationPrice="Norway"
@@ -42,7 +42,7 @@ const PopularDestinationsContainer = () => {
           propBackgroundImage={`url("/frame-698@3x.png")`}
           propWidth="4.25rem"
           propWidth1="4.25rem"
-          propLeft="1.79rem"
+          propLeft="unset"
         />
         <TripCard
           destinationPrice="Tuscany"
@@ -50,7 +50,7 @@ const PopularDestinationsContainer = () => {
           propBackgroundImage={`url("/frame-699@3x.png")`}
           propWidth="4.7rem"
           propWidth1="4.7rem"
-          propLeft="2.25rem"
+          propLeft="unset"
         />
       </div>
       <div className="rounded-[23.17px] bg-primary-contrast w-[10.81rem] hidden flex-row items-start justify-start gap-[0.47rem] text-right md:flex md:mt-[1rem]">

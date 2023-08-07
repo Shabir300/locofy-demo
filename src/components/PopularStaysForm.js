@@ -51,8 +51,8 @@ const PopularStaysForm = () => {
           rating="4.7"
           imageDimensions="/vector6.svg"
           propWidth="10.1rem"
-          propWidth1="37.58%"
-          propRight="62.42%"
+          propWidth1="0.78rem"
+          propRight="unset"
         />
         <HotelCardForm1
           imageDimensions="/unsplashyqrybvxug5q@2x.png"
