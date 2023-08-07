@@ -19,16 +19,16 @@ const CoverFrame = () => {
         <div className="rounded-2xl bg-primary-contrast w-[69.44rem] h-[53.19rem] overflow-hidden shrink-0 flex flex-col items-center justify-start gap-[3.22rem] hover:[background:linear-gradient(#fff,_#fff),_#87550a] md:rounded-2xl sm:w-full sm:hover:bg-orange">
           <div className="self-stretch flex flex-col items-center justify-start">
             <Header />
-            <div className="w-[69.44rem] h-[36.25rem] flex flex-col items-start justify-start bg-[url(/public/search-section@3x.png)] bg-cover bg-no-repeat bg-[top]">
-              <div className="w-full h-[27.19rem] flex flex-col py-[0rem] px-[6.54rem] box-border items-center justify-center gap-[1.25rem] md:pl-[1.88rem] md:pr-[1.88rem] md:box-border">
-                <div className="self-stretch flex flex-col items-center justify-start gap-[0.23rem]">
-                  <div className="self-stretch relative leading-[3.13rem] sm:text-[2.63rem] sm:leading-[3rem]">{`Let’s explore & travel the world`}</div>
-                  <div className="self-stretch relative text-[1.12rem] leading-[1.5rem] font-components-button-large">
+            <div className="w-[69.44rem] h-[36.25rem] flex flex-col   bg-[url(/public/search-section@3x.png)] bg-cover bg-no-repeat bg-[top]">
+              <div className="w-full h-[27.19rem] flex flex-col py-[0rem] px-[6.54rem] box-border items-center justify-center  md:pl-[1.88rem] md:pr-[1.88rem] md:box-border">
+                <div className=" flex flex-col items-center justify-center gap-[0.23rem]">
+                  <div className=" relative leading-[3.13rem] sm:text-[1.3rem] sm:leading-[3rem]">{`Let’s explore & travel the world`}</div>
+                  <div className=" relative text-[1.12rem]  leading-[1.5rem] font-components-button-large">
                     Find the best destinations and the most popular stays!
                   </div>
                 </div>
-                <div className="self-stretch rounded-[10px] bg-primary-contrast h-[6.25rem] flex flex-row py-[0.93rem] pr-[0rem] pl-[0.88rem] box-border items-start justify-center md:w-[0rem]">
-                  <div className="flex-1 h-[0.06rem] flex flex-row items-start justify-start md:flex-col md:w-full sm:flex-col">
+                <div className=" rounded-[10px] bg-primary-contrast h-fit flex flex-row justify-between py-[0.93rem] px-10 mt-3 box-border md:flex-col">
+                  <div className="flex-1  flex flex-row items-start justify-start md:flex-col md:w-full sm:flex-col">
                     <div className="flex-1 flex flex-col p-[0.23rem] items-center justify-center md:flex-[unset] md:self-stretch sm:w-full sm:flex-[unset] sm:self-stretch">
                       <Autocomplete
                         className="self-stretch"
@@ -92,9 +92,8 @@ const CoverFrame = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="flex flex-col p-[0.23rem] items-center justify-center flex-1 md:flex-row md:w-full md:text-left sm:self-stretch sm:h-auto sm:w-full sm:text-left">
+                  <div className="flex flex-col  items-center justify-center px-5 md:flex-row md:w-full md:text-left  sm:h-auto sm:w-full sm:text-left">
                     <Button
-                      sx={{ width: 122.59650421142578 }}
                       variant="contained"
                       name="flightSearchBtn"
                       id="flight-search-btn"
